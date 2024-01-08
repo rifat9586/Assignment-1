@@ -136,6 +136,32 @@ padding: 100px 0;
 
 
 
+
+/*date-point start (4)*/
+.date-point{
+    background-color: #e0cccc;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+}
+.date-point-div{
+    position: relative;
+    top: 150px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.date-span{
+   color: #ff0000; 
+}
+/*date-point end (4)*/
+
+
+
+
 /*new-offer point start (5)*/
 .new-offer{
     width: 1320px;
@@ -202,43 +228,75 @@ margin: 20px 0;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*date-point start (4)*/
-.date-point{
-    background-color: #e0cccc;
+/*Sale-point strt*/
+.Sale-point{
     width: 1320px;
     height: 600px;
-    margin: 0 auto;
-    border-radius: 15px;
+    margin: 100px auto;
+}
+/*sale-point-1 start*/
+.sale-point-1{
+text-align: center;
+}
+.sale-point-1 h3{
+    font-style: 25px;
+    font-weight: 500;
+    color: #070211;
+font-family: Inter;
+}
+.sale-point-1 h1{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 80px;
+}
+.sale-point-1 p{
+    font-style: 20px;
+    color: #b4b2b2;
+    width:600px;
+    margin: 0 auto; 
     text-align: center;
 }
-.date-point-div{
+/* sale-point-1 end */
+/*sale-point-2 start*/
+.sale-point-2 {
+    margin-top: -70px;
+  }
+.sale-div-1{
+width: 49%;
+display: inline-block;
+}
+.sale-div-1 img{
+    width: 530px;
+    height: 530px;
+    text-align: center;
     position: relative;
-    top: 150px;
-    font-family: Inter;
-    font-size: 30px;
-    font-weight: 900;
-    line-height: 60px;
+    top: 160px;
+    left: 160px;
 }
-.date-span{
-   color: #ff0000; 
+.sale-div-2{
+   width: 49%;
+   display: inline-block;
+   text-align: right; 
+   position: relative;
 }
-/*date-point end (4)*/
-
-
+.sale-div-2 img{
+    width: 430px;
+    height: 430px;
+    margin-bottom: -5px;
+    margin-right: -22px;
+}
+.sale-div-2 .img-1{
+    position: absolute;
+    top: 20px;
+    left: 0;
+}
+/* sale-point-2 end */
+/*sale-point-3 start*/
+.sale-point-3{
+    margin-bottom: 200px; ;
+}
+/* sale-point-3 end */
+/*Sale-point end*/
 
 
 
@@ -249,7 +307,7 @@ margin: 20px 0;
     color: #0e0d0d;
     width: 1320px;
     margin: 20px auto;
-    padding: 100px 0 15px 0;
+    padding: 250px 0 15px 0;
 }
 .GIFTS-text h2{
     font-family: Inter;
