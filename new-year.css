@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-/*mane-head point start (0)*/
+/*mane-head point start (1)*/
 .mane-head{
     background-image: url(./new-year/Banner\ Image.png);
     width: 1320px;
@@ -27,11 +27,11 @@
     .mane-text h1{
         font-size: 70px;
     }
-    /*mane-head point end (0)*/
+    /*mane-head point end (1)*/
 
 
 
-/*Header point start (1)*/
+/*Header point start (2)*/
 .head-point{
    width: 800px;
 height: 800px;
@@ -63,7 +63,6 @@ padding: 100px 0;
     margin: 10px 0;
 }
 /*head-name point end*/
-
 /*image point stert*/
 .image-div{
     background-image: url(./new-year/NewYearPhoto.png);
@@ -72,16 +71,16 @@ padding: 100px 0;
     height: 100%;
 }
 /*image point end*/
-/*Header point end (1) */
+/*Header point end (2) */
 
 
 
-/*welcome-point start (2)*/
+/*welcome-point start (3)*/
 .welcome-point{
     background-image: url(./new-year/Vectorrr.png);
     width: 1320px;
     height: 600px;
-    margin: 0 auto;
+    margin: 100px auto;
     border-radius: 15px;
 }
 /*welcome text point start*/
@@ -133,15 +132,96 @@ padding: 100px 0;
     width: 320px;
 }
 /*welcome image point end*/
-/*welcome-point end (2*/
+/*welcome-point end (3)*/
 
 
-/*date-point start (3)*/
+
+/*new-offer point start (5)*/
+.new-offer{
+    width: 1320px;
+    height: 450px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border-radius: 15px; 
+}
+/*new-offer-1 start*/
+.new-offer-1{
+    width: 31%;
+    display: inline-block;
+    position: relative;
+  top: -80px;
+}
+.new-offer-1 h3{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    color: red;
+}
+.new-offer-1 h2{
+    font-size: 50px;
+    color: #000;
+    line-height: 80px;
+}
+.new-offer-1 p {
+    font-size: 20px;
+    color: #616060;
+}
+/*  new-offer-1 end */
+/*new-offer-2 start*/
+.new-offer-2{
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    border: 7px solid red;
+    border-radius: 50% 50%;
+  width: 406px;
+  height: 385px;
+  padding-top: 20px;
+}
+/*new-offer-2 end*/
+/*new-offer-3 start*/
+.new-offer-3{
+width: 31%;
+display: inline-block;
+position: relative;
+  top: -25px;
+  width: 300px;
+  margin-left: 100px;
+}
+.new-offer-3 p{
+    font-size: 20px;
+    color: #616060;
+margin: 20px 0;
+}
+.new-offer-3 h2{
+    font-size: 50px;
+    font-weight: 800;
+}
+/*new-offer-3 end*/
+/*new-offer point end (5)*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*date-point start (4)*/
 .date-point{
     background-color: #e0cccc;
     width: 1320px;
     height: 600px;
-    margin: 100px auto;
+    margin: 0 auto;
     border-radius: 15px;
     text-align: center;
 }
@@ -156,11 +236,62 @@ padding: 100px 0;
 .date-span{
    color: #ff0000; 
 }
-/*date-point end (3)*/
+/*date-point end (4)*/
 
 
 
-/*Newsletter point start (4)*/
+
+
+
+/*GIFTS-text point start (7)*/
+.GIFTS-text{
+    background-color: #fdfcfc;
+    color: #0e0d0d;
+    width: 1320px;
+    margin: 20px auto;
+    padding: 100px 0 15px 0;
+}
+.GIFTS-text h2{
+    font-family: Inter;
+    font-size: 25px;
+    color: red;
+}
+.GIFTS-text h1{
+font-size: 50px;
+line-height: 70px;
+color: #000;
+}
+.GIFTS-text h4{
+font-size: 20px;
+font-family: Inter;
+color: #3b3636;
+width: 70%;
+}
+/*GIFTS-text point end*/
+/*GIFTS point start*/
+.GIFTS{
+   width: 1320px;
+   height: 800px;
+   margin: 0 auto;
+   text-align: center;
+}
+/*GIFTS-image start*/
+.gift-div-1{
+width: 33%;
+display: inline-block;
+
+}
+.gift-div-1 img{
+    width: 420px;
+     height: 365px;
+     margin: 7px;
+}
+/*GIFTS-image end (7)*/
+
+
+
+
+/*Newsletter point start (8)*/
 .Newsletter{
     background-color: #e0cccc;
     color: #fff;
@@ -189,27 +320,30 @@ padding: 100px 0;
    font-size: 20px;
 }
 /*input & button-div start*/
-.input-div{
-border-radius: 20px 0;
-width: 50%;
-margin: 0 auto;
-text-align: left;
-display: inline-block;
-
+#input-div{
+padding: 20px 120px;
+border: none;
+border-radius: 30px 0 0 30px;
+background-color: #fff;
 }
 .Subscribe-div{
-    border-radius: 0 20px;
-    width: 50%;
-    margin: 0 auto;
-    text-align: right;
-
+  padding: 20px 60px; 
+  border-radius: 0 30px 30px 0; 
+  border: none;
+  margin-left: -4px;
+  background-color: #ff0000;
+}
+.Subscribe-div:hover{
+    background-color: cornflowerblue;
+    color: whitesmoke;
 }
 /*input & button-div end */
-/*Newsletter point end (4)*/
+/*Newsletter point end (8)*/
 
 
 
-/*mane footer start (4)*/
+
+/*mane footer start (9)*/
 .mane-footer{
     background-color: #000;
     color: #fff;
@@ -270,4 +404,4 @@ hr{ /* line mide */
     text-align: right;
 }
 /*footer-div-3 end*/
-/*mane footer end (4)*/
+/*mane footer end (9)*/
