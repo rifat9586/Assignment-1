@@ -160,19 +160,67 @@ padding: 100px 0;
 
 
 
-
-/*mane footer start (4)*/
-.mane-footer{
-    background-color: #000;
+/*Newsletter point start (4)*/
+.Newsletter{
+    background-color: #e0cccc;
     color: #fff;
     width: 1320px;
     height: 600px;
     margin: 0 auto;
     border-radius: 15px;
+    text-align: center;  
+}
+.Newsletter img{
+    padding: 100px 0 20px 0;
+}
+.Newsletter-div h2{
+    font-family: Merriweather;
+    font-size: 50px;
+    font-weight: 900;
+    color: #000;
+}
+.Newsletter-div h3{
+    color: #4b4848;
+   width: 700px; 
+   text-align: center;
+   margin: 20px auto;
+   font-family: Inter;
+   font-weight: 400;
+   font-size: 20px;
+}
+/*input & button-div start*/
+.input-div{
+border-radius: 20px 0;
+width: 50%;
+margin: 0 auto;
+text-align: left;
+display: inline-block;
+
+}
+.Subscribe-div{
+    border-radius: 0 20px;
+    width: 50%;
+    margin: 0 auto;
+    text-align: right;
+
+}
+/*input & button-div end */
+/*Newsletter point end (4)*/
+
+
+
+/*mane footer start (4)*/
+.mane-footer{
+    background-color: #000;
+    color: #fff;
+    /*width: 1320px;*/
+    height: 600px;
+    margin: 0 auto;
+    /*border-radius: 15px;*/
     text-align: center;
 }
 .footer-weigth{
-    width: 1000px;
+    width: 1200px;
     margin: 30px auto;
 }
 /*footer-div-1 start*/
@@ -194,7 +242,7 @@ padding: 100px 0;
     margin-bottom: 100px;
 }
 .icon-1 img{
-    padding-top: 15px;
+    padding-top: 30px;
     margin: -11px 0;
   }
 .footer-div-2{
