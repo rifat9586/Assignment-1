@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*mane-head point start (0)*/
+.mane-head{
+    background-image: url(./new-year/Banner\ Image.png);
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    }
+    .mane-text{
+    position: relative;
+    top: 210px;
+    color: #fff;
+    }
+    .mane-text h3{
+        font-size: 30px;
+        font-family: Merriweather;
+    }
+    .mane-text h1{
+        font-size: 70px;
+    }
+    /*mane-head point end (0)*/
+
+
+
+/*Header point start (1)*/
+.head-point{
+   width: 800px;
+height: 800px;
+margin:0 auto;
+text-align: center;
+padding: 100px 0;
+}
+/*head-name point start*/
+.head-name{
+    height: 30%;
+    background-color: #ffffff;
+}
+.head-name h1{
+    font-size: 80px;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+    margin: 30px 0;
+}
+.head-name h4{
+    font-size: 25px;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+    margin: 10px 0;
+}
+.head-name h3{
+    font-size: 40px;
+    color: rgb(8, 8, 8);
+    font-family: 'Kanit', sans-serif;
+    margin: 10px 0;
+}
+/*head-name point end*/
+
+/*image point stert*/
+.image-div{
+    background-image: url(./new-year/NewYearPhoto.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+/*image point end*/
+/*Header point end (1) */
+
+
+
+/*welcome-point start (2)*/
+.welcome-point{
+    background-image: url(./new-year/Vectorrr.png);
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+/*welcome text point start*/
+.welcome-text{
+    width: 60%;
+    display: inline-block;
+    color: #fff;
+}
+.welcam-text-div{
+    margin-left: 200px;
+}
+.welcome-text h2{
+    font-size: 65px;
+    font-weight: 900;
+}
+.welcome-text h4{
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 300;
+}
+/*welcome text point end*/
+/*button point start*/
+.button-point{
+   padding: 15px 30px;
+   border: 1px solid #000;
+   border-radius: 10px;
+   margin-top: 20px;
+   font-weight: 600;
+   color:#fff;
+   background-color: #ff0000;
+}
+.button-point:hover{
+    background-color: rgb(20, 233, 215);
+    border: 1px solid rgb(12, 103, 240);
+    color: red;
+}
+/*button point end*/
+/*welcome text point end*/
+/*welcome image point start*/
+.welcome-image{
+    width: 40%;
+    display: inline;
+}
+.welcome-image img{
+    position: relative;
+    top: 60px;
+    left: 80px;
+    height: 450px;
+    width: 320px;
+}
+/*welcome image point end*/
+/*welcome-point end (2*/
+
+
+
+.date-point{
+    background-color: #e0cccc;
+    width: 1320px;
+    height: 600px;
+    margin: 100px auto;
+    border-radius: 15px;
+    text-align: center;
+}
+.date-point-div{
+    position: relative;
+    top: 150px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 60px;
+}
+.date-span{
+   color: #ff0000; 
+}
+
+
+
+
+.mane-footer{
+    background-color: #000;
+    color: #fff;
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.footer-w{
+    width: 1000px;
+    margin: 30px auto;
+}
+.footer-text-1{
+    width: 35%;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+}
+.footer-text-2{
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+}
+
+.footer-div-2{
+    
+}
