@@ -136,7 +136,7 @@ padding: 100px 0;
 /*welcome-point end (2*/
 
 
-
+/*date-point start (3)*/
 .date-point{
     background-color: #e0cccc;
     width: 1320px;
@@ -156,10 +156,12 @@ padding: 100px 0;
 .date-span{
    color: #ff0000; 
 }
+/*date-point end (3)*/
 
 
 
 
+/*mane footer start (4)*/
 .mane-footer{
     background-color: #000;
     color: #fff;
@@ -169,24 +171,55 @@ padding: 100px 0;
     border-radius: 15px;
     text-align: center;
 }
-
-.footer-w{
+.footer-weigth{
     width: 1000px;
     margin: 30px auto;
 }
+/*footer-div-1 start*/
+/*footer-text-1 start*/
 .footer-text-1{
     width: 35%;
     display: inline-block;
     font-size: 24px;
     font-weight: 500;
     text-align: left;
+    margin-top: 100px;
 }
+/*footer-text-1 end */
+/*footer-text-2 start*/
 .footer-text-2{
     width: 60%;
     display: inline-block;
     text-align: right;
+    margin-bottom: 100px;
 }
-
+.icon-1 img{
+    padding-top: 15px;
+    margin: -11px 0;
+  }
 .footer-div-2{
-    
+    margin: 50px 0;
 }
+.footer-div-2 img{
+    margin: 0 20px;
+}
+/*footer-text-1 end*/
+hr{ /* line mide */
+    color: #4b4848;
+    margin: 30px 0;
+}
+/*footer-div-3 start*/
+.footer-end-1{
+    width: 50%;
+    font-size: 20px;
+    display: inline-block;
+    text-align-last: left;
+}
+.footer-end-2{
+    width: 49%;
+    font-size: 20px;
+    display: inline-block;
+    text-align: right;
+}
+/*footer-div-3 end*/
+/*mane footer end (4)*/
